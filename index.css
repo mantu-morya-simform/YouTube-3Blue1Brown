@@ -3,3 +3,253 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 0.1fr 1fr;
+  gap: 10px;
+}
+.container-child {
+  border: 1px solid black;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.main-child {
+  border: 1px solid black;
+}
+
+.mid-content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 1.2fr 1fr;
+  gap: 10px;
+}
+
+.mid-content-child {
+  border: 1px solid black;
+}
+
+/* Style Headder */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.top-left-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-left: 10px;
+}
+
+.top-mid-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.top-mid-nav input {
+  border-radius: 5px;
+  padding: 10px;
+  width: 350px;
+  font-weight: bold;
+}
+
+.top-right-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-right: 10px;
+}
+
+/* Aside Style */
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aside-top {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid gray;
+  justify-content: start;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.aside-signin {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+  padding-top: 10px;
+  border-bottom: 1px solid gray;
+}
+.aside-signin p {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.aside-explore {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+  padding-top: 10px;
+  border-bottom: 1px solid gray;
+}
+.aside-explore p {
+  padding-right: 120px;
+  font-weight: bold;
+}
+
+.aside-more-from-youtube {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+  padding-top: 10px;
+  border-bottom: 1px solid gray;
+}
+.aside-more-from-youtube p {
+  padding-right: 35px;
+  font-weight: bold;
+}
+
+.aside nav a {
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
+}
+
+/* style top main */
+
+.mid-content {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.top-section img {
+  border-radius: 10px;
+  height: 190px;
+}
+
+.top-section-data img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.top-section-data {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+  line-height: 1.5;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.subscribe-btn {
+  padding: 15px;
+  background: #000;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 17px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.top-section-nav {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  font-size: large;
+  font-weight: bold;
+}
+
+.top-section-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.top-section-nav a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.bottom-section {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bottom-section h3 button {
+  width: 100px;
+  padding: 5px;
+  border: none;
+  background: white;
+  font-weight: bold;
+  font-size: large;
+  margin-left: 20px;
+}
+
+.bottom-section h3 button:hover {
+  background: rgb(178, 175, 175);
+  cursor: pointer;
+}
+
+.bottom-section-paar {
+  color: gray;
+}
+
+.bottom-section-videos {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+  padding-top: 15px;
+  border-bottom: 1px solid gray;
+}
+
+.videos {
+  /* border: 1px solid gray; */
+}
